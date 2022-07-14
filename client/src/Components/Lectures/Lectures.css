@@ -1,0 +1,63 @@
+#lectureshead{
+    background-color: white;
+    
+    height: 80px;
+    text-align: left;
+  border-bottom: 1px solid black;
+}
+
+#lectureshead > p{
+    padding-top: 20px;
+    padding-left: 165px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#mainbox{
+    background-color: white;
+    margin-top: 3%;
+  width: 78%;
+    margin-left: 160px;
+ 
+}
+.boxhead{
+    display: flex;
+border-bottom: 0.5px solid black;
+   padding: 20px;
+   
+}
+#lecturemain{
+   padding-bottom: 10%;
+        background-color: #F3F4F6;   
+}
+.title{
+    color: #4F4BE5;
+    font-size: 20px;
+}
+.title:hover{
+    text-decoration: underline;
+}
+.status{
+    background-color: #16A34A;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.attendance{
+    background-color: #EF4444;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    margin-left: 60%;
+}
+.boxhead:hover{
+    background-color: #F9FAFB;
+    cursor: pointer;
+}
+.boxfirst{
+    display: flex;
+}

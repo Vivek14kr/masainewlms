@@ -1,0 +1,66 @@
+#lectureshead{
+    background-color: white;
+    
+    height: 80px;
+    text-align: left;
+  border-bottom: 1px solid black;
+}
+
+#lectureshead > p{
+    padding-top: 20px;
+    padding-left: 165px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#assignmentmain{
+    padding-bottom: 10%;
+        background-color: #F3F4F6;
+}
+.infoo{
+    width: 450px
+}
+#mainbox{
+    background-color: white;
+    margin-top: 3%;
+  width: 78%;
+    margin-left: 160px;
+ 
+}
+.boxhead{
+    display: flex;
+border-bottom: 0.5px solid black;
+   padding: 20px;
+   
+}
+.titlee{
+    color: #4F4BE5;
+    font-size: 20px;
+}
+.titlee:hover{
+    text-decoration: underline;
+}
+.statuss{
+    background-color: #16A34A;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.attendancee{
+    background-color: #CA8A04;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    margin-left: 40%;
+}
+.boxhead:hover{
+    background-color: #F9FAFB;
+    cursor: pointer;
+}
+.boxfirst{
+    display: flex;
+}
